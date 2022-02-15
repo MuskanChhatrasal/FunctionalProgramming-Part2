@@ -112,3 +112,31 @@
 // console.log(arr.reduce(arrayToObject,{}));
 
 // -----------------------------------------------
+
+// Q9. Given an array of objects. If the name of an item is more than 5 characters in length, add type as ‘vegetable’. If the name of an item is less than or equal to 5 characters in length, add type as ‘fruit’. 
+
+// Ans9.
+
+// const arr = [
+// 	{
+// 		name: "Apple"
+// 	},
+// 	{
+// 		name: "Mango"
+// 	},
+// 	{
+// 		name: "Potato"
+// 	},
+// 	{
+// 		name: "Guava"
+// 	},
+// 	{
+// 		name: "Capsicum"
+// 	}
+// ]
+
+// const addType = obj => obj.name.length>5?{...obj,type:'vegetabels'}:{...obj,type:'fruit'}
+// console.log(arr.map(addType));
+
+// -----------------------------------------------
+
