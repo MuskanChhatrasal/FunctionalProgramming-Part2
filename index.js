@@ -169,3 +169,13 @@
 // console.log(inventory.reduce(quantIsZero,{}));
 
 // ------------------------------------------------
+
+// Q11. Given an array. Write a function to join all elements of the array with a hyphen in between them.
+
+// Ans11:
+
+// const arr = ["Violet", "Indigo", "Blue", "Green", "Yellow", "Orange", "Red"]
+// console.log(arr.join('-'));
+
+// ------------------------------------------------
+
