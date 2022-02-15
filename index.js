@@ -47,3 +47,14 @@
 // const arr = [1, 2, 3, 58, 5, 6, 24, 8, 15, 4];
 // const numLessThan8AndEven = num => num<8 && num%2==0;
 // console.log(arr.filter(numLessThan8AndEven));
+
+// ------------------------------------------------
+
+// Q4. Given an array. Write a function that takes in the given array and prints only the words which are more than 5 characters in length.
+
+// Ans4: 
+// const arr = ['eat', 'sleep', 'repeat', 'code'];
+// const wordMoreThan5 = word => word.length>5;
+// console.log(arr.filter(wordMoreThan5));
+
+// ------------------------------------------------
