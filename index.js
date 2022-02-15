@@ -58,3 +58,12 @@
 // console.log(arr.filter(wordMoreThan5));
 
 // ------------------------------------------------
+
+// Q5. Given an array. Write a function to get the sum of all elements which are greater than 50.
+
+// Ans5: 
+// const arr = [1, 2, 3, 58, 5, 6, 62, 8, 70];
+// const sumOfAllGreaterThan50 = (sum,num)=>num>50?sum+num:sum;
+//console.log(arr.reduce(sumOfAllGreaterThan50,0));
+
+// ------------------------------------------------
