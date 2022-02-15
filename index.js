@@ -67,3 +67,12 @@
 //console.log(arr.reduce(sumOfAllGreaterThan50,0));
 
 // ------------------------------------------------
+
+// Q6. Given an array. Write a function to find the product of all elements which are even.
+
+// Ans6: 
+// const arr = [1, 2, 3, 7, 5, 6, 8, 9];
+// const productOfAllEven = (prod,num)=>num%2===0?prod*num:prod;
+// console.log(arr.reduce(productOfAllEven));
+
+// ------------------------------------------------
