@@ -140,3 +140,32 @@
 
 // -----------------------------------------------
 
+// Q10. Given an array of objects.
+// a. Get all the items in an array whose quantity is less than 2.
+// b. Get the total quantity of items present in the inventory.
+// c. Find the object which contains the item whose quantity is zero.
+
+// Ans10. 
+// const inventory = [
+//     {name: 'fans', quantity: 3},
+//     {name: 'chimneys', quantity: 0},
+//     {name: 'bulbs', quantity: 5},
+//     {name: 'stove', quantity: 1}    
+//   ];
+// Ans10. a
+// const allItemsQuanLess2 = obj => obj.quantity<2;
+//console.log(inventory.filter(allItemsQuanLess2));
+
+// Ans10. b
+// const totalQuantity = (sum,obj) => sum+obj.quantity;
+// console.log(inventory.reduce(totalQuantity,0))
+
+// Ans10. c Method1: Using filter
+// const quantIsZero = obj => obj.quantity===0;
+// console.log(inventory.filter(quantIsZero));
+
+// Ans10. c Method2: Using reduce
+// const quantIsZero = (obj,currObj) => currObj.quantity===0?obj=currObj:obj;
+// console.log(inventory.reduce(quantIsZero,{}));
+
+// ------------------------------------------------
