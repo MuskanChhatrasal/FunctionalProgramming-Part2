@@ -101,3 +101,14 @@
 
 // const sumOfAllAges = (sum,obj) => sum+obj.age;
 // console.log(arr.reduce(sumOfAllAges,0));
+
+// ------------------------------------------------
+
+// Q8. Given an array. Convert it in to an object with key as the index of each element and value as the element itself.
+
+// Ans8: 
+// const arr = ["You", "all", "are", "rockstars"];
+// const arrayToObject = (obj, currItem, currIndex)=>({...obj,[currIndex]:currItem});
+// console.log(arr.reduce(arrayToObject,{}));
+
+// -----------------------------------------------
