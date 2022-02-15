@@ -38,3 +38,12 @@
 // const currObj={};
 // const reducer = (ifCycle,currObj) => currObj.haveCycle===true?[...ifCycle,currObj.name]:[...ifCycle];
 // console.log(family.reduce(reducer,[]));
+
+// ------------------------------------------------
+
+// Q3. Given an array. Write a function that takes in the given array and prints only the numbers which are less than 8 and also an even number.
+
+// Ans3: 
+// const arr = [1, 2, 3, 58, 5, 6, 24, 8, 15, 4];
+// const numLessThan8AndEven = num => num<8 && num%2==0;
+// console.log(arr.filter(numLessThan8AndEven));
