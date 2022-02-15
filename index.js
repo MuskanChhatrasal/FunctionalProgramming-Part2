@@ -173,9 +173,17 @@
 // Q11. Given an array. Write a function to join all elements of the array with a hyphen in between them.
 
 // Ans11:
-
 // const arr = ["Violet", "Indigo", "Blue", "Green", "Yellow", "Orange", "Red"]
 // console.log(arr.join('-'));
+
+// ------------------------------------------------
+
+// Q13. Write a function that takes in a string and converts all the characters to uppercase. (Hint: toUpperCase())
+
+// Ans13: 
+
+// const convertToUpper = str => str.toUpperCase();
+// console.log(convertToUpper('mussu'));
 
 // ------------------------------------------------
 
